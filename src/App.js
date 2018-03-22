@@ -11,7 +11,8 @@ class App extends Component {
     return (
         <Grid fluid className="container-app">
           <Home />
-        </Grid>
+          <EventsAll/> 
+        </Grid>   
     );
   }
 }
