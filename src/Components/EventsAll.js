@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { Grid, Row, Col } from 'react-flexbox-grid';
+import { Col } from 'react-flexbox-grid';
 import ButtonGo from './ButtonGo'
 import events from './Data/events.json';
-// import BuyButton from './BuyButton';
 
 class EventsAll extends Component {
 
@@ -14,14 +13,16 @@ class EventsAll extends Component {
         {
           events.events.map(function(events){
             const img = events.imgEvent
-            return 
+            return (
               <Col className="imageLeft" xs={12} md={6}>
                 <div key = {events.id} className="allEvents">
                   {events.name} 
                   <img src={img}/>
                   <ButtonGo/>
                 </div>          
-              </Col>                        
+              </Col>
+            )
+                                      
           })
         }        
       </div>      
