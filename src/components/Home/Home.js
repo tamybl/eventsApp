@@ -28,7 +28,6 @@ class Home extends Component {
       });
     return (
       <Grid fluid>
-      <Navbar imageBrand={menu.logoImage} title={menu.appName} linkright1='links1' />
       <Row className="content">
         
         <Upcomingevents />
