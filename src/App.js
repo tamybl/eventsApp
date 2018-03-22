@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 //import ReactDom from 'react-dom';
 import { Grid } from 'react-bootstrap';
 //import logo from './logo.svg';
-import Home from './components/Home/Home';
+import Home from './Components/Home/Home';
 import './App.css';
 
 
