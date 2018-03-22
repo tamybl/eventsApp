@@ -4,6 +4,8 @@ import { Grid, Row } from 'react-bootstrap';
 import Home from './Components/Home/Home';
 // import EventsAll from './Components/EventsAll.js'
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+//import EventsAll from './Components/EventsAll'
+import Addevent from './Components/Addevent/Addevent';
 import './App.css';
 
 const App = () => (
@@ -98,6 +100,17 @@ const Blog = () => (
     <h2>Blog</h2>
   </div>
 );
+
+/*class App extends Component {
+  render() {
+    return (
+        <Grid fluid className="container-app">
+          <Ho*me />
+          <Addevent />
+        </Grid>
+    );
+  }
+}*/
 
 export default App;
 
