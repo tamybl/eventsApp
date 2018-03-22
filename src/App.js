@@ -17,34 +17,39 @@ const App = () => (
         </Navbar.Header>       
           <Nav pullRight>
             <NavItem eventKey={1} href="#">
-              <Link to="/about">Registrarse</Link>
+              <Link to="/registrarse">Registrarse</Link>
             </NavItem>
             <NavItem eventKey={2} href="#">
-              <Link to="/topics">Iniciar sesión</Link>
+              <Link to="/iniciar-sesion">Iniciar sesión</Link>
             </NavItem>
           </Nav>
       </Navbar>
 
       <Route exact path="/" component={Home} />
-      <Route path="/about" component={About} />
-      <Route path="/topics" component={Topics} />
+      <Route path="/registrarse" component={Registrarse} />
+      <Route path="/iniciar-sesion" component={IniciarSesion} />
+      <Route path="/quienes-somos" component={QuienesSomos} />
+      <Route path="/contacto" component={Contacto} />
+      <Route path="/ayuda" component={Ayuda} />
+      <Route path="/temas" component={Temas} />
+      <Route path="/blog" component={Blog} />
 
       <Navbar collapseOnSelect>       
           <Nav>
             <NavItem eventKey={1} href="#">
-              <Link to="/">Quienes somos</Link>
+              <Link to="/quienes-somos">Quienes somos</Link>
             </NavItem>
             <NavItem eventKey={2} href="#">
-              <Link to="/about">Contacto</Link>
+              <Link to="/contacto">Contacto</Link>
             </NavItem>
-            <NavItem eventKey={2} href="#">
-              <Link to="/topics">Ayuda</Link>
+            <NavItem eventKey={3} href="#">
+              <Link to="/ayuda">Ayuda</Link>
             </NavItem>
-            <NavItem eventKey={2} href="#">
-              <Link to="/topics">Temas</Link>
+            <NavItem eventKey={4} href="#">
+              <Link to="/temas">Temas</Link>
             </NavItem>
-            <NavItem eventKey={2} href="#">
-              <Link to="/topics">Blog</Link>
+            <NavItem eventKey={5} href="#">
+              <Link to="/blog">Blog</Link>
             </NavItem>
           </Nav>
       </Navbar>
@@ -52,35 +57,49 @@ const App = () => (
   </Router>
 );
 
-const Inicio = () => (
+const Registrarse = () => (
   <div>
-    <h2>Inicio</h2>
+    <h2>Registrarse</h2>
   </div>
 );
 
-const About = () => (
+const IniciarSesion = () => (
   <div>
-    <h2>About</h2>
+    <h2>IniciarSesion</h2>
   </div>
 );
 
-const Abosdut = () => (
+const QuienesSomos = () => (
   <div>
-    <h2>About</h2>
+    <h2>QuienesSomos</h2>
   </div>
 );
 
-const Abfghout = () => (
+const Contacto = () => (
   <div>
-    <h2>About</h2>
+    <h2>Contacto</h2>
   </div>
 );
 
-const Abhjkout = () => (
+const Ayuda = () => (
   <div>
-    <h2>About</h2>
+    <h2>Ayuda</h2>
   </div>
 );
+
+const Temas = () => (
+  <div>
+    <h2>Temas</h2>
+  </div>
+);
+
+const Blog = () => (
+  <div>
+    <h2>Blog</h2>
+  </div>
+);
+
+export default App;
 
 // <Navbar.Collapse>        
 //           <Nav pullRight>
