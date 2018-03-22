@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import { Grid, Row, Col } from 'react-flexbox-grid';
+import { Grid, Row, Col } from 'react-flexbox-grid';
 import ButtonGo from './ButtonGo'
 import events from './Data/events.json';
 // import BuyButton from './BuyButton';

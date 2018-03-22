@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { Grid } from 'react-bootstrap';
 //import logo from './logo.svg';
 import Home from './Components/Home/Home';
+import EventsAll from './Components/EventsAll'
 import './App.css';
 
 
