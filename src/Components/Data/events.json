@@ -82,6 +82,6 @@
     "description": "Crea tu propio asesor virtual el cual simulará una conversación. Podrás crear una aplicación que entienda lenguaje natural y use el aprendizaje automático para responder a los usuarios de una manera que simule una conversación entre humanos.",
     "category": "",
     "places": ""
-  },
+  }
 ]
 }
