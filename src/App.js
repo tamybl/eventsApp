@@ -4,6 +4,7 @@ import { Grid } from 'react-bootstrap';
 //import logo from './logo.svg';
 import Home from './Components/Home/Home';
 import EventsAll from './Components/EventsAll'
+import UserView from './Components/UserView/User/UserView'
 import './App.css';
 
 
@@ -12,8 +13,9 @@ class App extends Component {
     return (
         <Grid fluid className="container-app">
           <Home />
-          <EventsAll/> 
-        </Grid>   
+          <EventsAll/>
+          <UserView />
+        </Grid>
     );
   }
 }
