@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import { Grid, Row, Col } from 'react-flexbox-grid';
+import { Grid, Row, Col } from 'react-flexbox-grid';
 import ButtonGo from './ButtonGo'
 import events from './Data/events.json';
 // import BuyButton from './BuyButton';
@@ -14,10 +14,14 @@ class EventsAll extends Component {
         {
           events.events.map(function(events){
             const img = events.imgEvent
-            return <div key = {events.id} className="allEvents">{events.name} 
-            <img src={img}/>
-            <ButtonGo/>
-            </div>            
+            return 
+              <Col className="imageLeft" xs={12} md={6}>
+                <div key = {events.id} className="allEvents">
+                  {events.name} 
+                  <img src={img}/>
+                  <ButtonGo/>
+                </div>          
+              </Col>                        
           })
         }        
       </div>      
@@ -31,15 +35,3 @@ class EventsAll extends Component {
 }
 
 export default EventsAll;
-
-
-// <Grid>
-//         <Row>
-//           <Col className="userLeft" xs={12} md={3}>
-//           <LateralMenu/>
-//           </Col>
-//           <Col className="imageRight" xs={12} md={9}>
-//             <Images/>
-//           </Col>
-//         </Row>
-//       </Grid>
