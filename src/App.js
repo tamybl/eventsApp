@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
-import EventsAll from './Components/EventsAll.js'
-import logo from './logo.svg';
+//import ReactDom from 'react-dom';
+import { Grid } from 'react-bootstrap';
+//import logo from './logo.svg';
+import Home from './components/Home/Home';
 import './App.css';
+
 
 class App extends Component {
   render() {
     return (
-      <EventsAll/>
+        <Grid fluid className="container-app">
+          <Home />
+        </Grid>
     );
   }
 }
