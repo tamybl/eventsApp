@@ -10,9 +10,20 @@ class UserView extends Component {
   render(){
     return (
       <Grid>
-        <div>
-        
-        </div>
+        <Row>
+          <Col {xs=12} {sm=12} {md= 6} {lg=6}>
+            <div>
+              <img src="https://image.ibb.co/krWwfH/user.png" alt="user">
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col {xs=12} {sm=12} {md= 6} {lg=6}>
+            <div>
+              
+            </div>
+          </Col>
+        </Row>
       </Grid>
     )
   }
