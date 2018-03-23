@@ -73,7 +73,7 @@ const Registrarse = () => (
 );
 
 const IniciarSesion = () => (
-  <div>
+  <div className="app">
     <h2>Iniciar Sesion</h2>
   </div>
 );
