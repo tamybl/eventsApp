@@ -3,13 +3,14 @@ import propTypes from 'prop-types';
 import { Row, Col, Grid } from 'react-bootstrap';
 import { FormGroup, ControlLabel, FormControl, HelpBlock } from 'react-bootstrap';
 import firebase from './../firebase.js';
+import './Addevent.css';
 
 class Addevent extends Component {
   constructor() {
     super();
     this.state = {
       date: '',
-      description: 'Sin información',
+      description: '',
       hour: '',
       id: '',
       imgEvent: '',
@@ -87,7 +88,7 @@ class Addevent extends Component {
       <div className='app'>
         <header>
             <div className="wrapper">
-              <h1>Añadir Evento</h1>
+              <h1 className="add-event-title">Añadir Evento</h1>
                              
             </div>
         </header>
@@ -111,7 +112,7 @@ class Addevent extends Component {
                   <ControlLabel>Página oficial del Evento:</ControlLabel>
                   <FormControl type="text" name="url" placeholder="http://www.google.cl" onChange={this.handleChange} value={this.state.url} />
 
-                  <button>Añadir</button>
+                  <button className="btn-add">Añadir</button>
                 </form>
           </Col>
           <section className='display-event'>
