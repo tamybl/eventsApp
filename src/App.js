@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { Grid, Row } from 'react-bootstrap';
-import Home from './Components/Home/Home';
+import Home from './components/Home/Home';
 import Addevent from './Components/Addevent/Addevent';
 // import EventsAll from './Components/EventsAll.js'
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
