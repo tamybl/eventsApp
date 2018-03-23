@@ -8,11 +8,7 @@ const categories = ['UX', 'Mujeres', 'Programación'];
 
 const menu = {
   appName: 'Events App',
-  logoImage: 'http://4.bp.blogspot.com/-d3Lc_Bpm1y4/VKidtotyyEI/AAAAAAAAH68/glouCyRYlts/s1600/eventbrite-thumbnail.png',
-  linksmenu1: {
-    title: 'Config',
-    url: 'http://www.google.cl'
-  }
+  logoImage: 'http://4.bp.blogspot.com/-d3Lc_Bpm1y4/VKidtotyyEI/AAAAAAAAH68/glouCyRYlts/s1600/eventbrite-thumbnail.png'
 }
 
 class Home extends Component {
@@ -29,7 +25,6 @@ class Home extends Component {
     return (
       <Grid fluid>
       <Row className="content">
-        
         <Upcomingevents />
       </Row>
       </Grid>);

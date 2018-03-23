@@ -5,7 +5,7 @@ import Home from './Components/Home/Home';
 // import EventsAll from './Components/EventsAll.js'
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 //import EventsAll from './Components/EventsAll'
-import Addevent from './Components/Addevent/Addevent';
+import AddEvent from './Components/Addevent/Addevent';
 import './App.css';
 
 const App = () => (
@@ -105,8 +105,13 @@ const Blog = () => (
   render() {
     return (
         <Grid fluid className="container-app">
+<<<<<<< HEAD
           <Ho*me />
           <Addevent />
+=======
+          <Home />
+          <AddEvent />
+>>>>>>> añadiendo ventana administrador para añadir/borrar eventos
         </Grid>
     );
   }
