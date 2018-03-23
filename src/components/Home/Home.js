@@ -5,6 +5,7 @@ import Navbar from './../Navbar/Navbar';
 import Upcomingevents from './../Upcoming/Upcomingevents';
 import './style.css';
 
+
 const categories = ['UX', 'Mujeres', 'Programación'];
 
 const menu = {
