@@ -4,6 +4,7 @@ import { Row, Col, Grid } from 'react-bootstrap';
 import Navbar from './../Navbar/Navbar';
 import Upcomingevents from './../Upcoming/Upcomingevents';
 
+
 const categories = ['UX', 'Mujeres', 'Programación'];
 
 const menu = {
